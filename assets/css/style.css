@@ -1,0 +1,75 @@
+
+/*targets the html element body*/
+/*CSS reset*/
+*{
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+	background-image: url(../images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	color: #f2f2f2; /* off-white*/
+	/*font-family: 'Roboto', sans-serif;*/
+	/*font-family: 'IBM Plex Sans', sans-serif;*/
+	font-family: 'Nunito', sans-serif;
+}
+
+ /*target's the html element h1*/
+h1{
+
+font-size: 50px;
+background-color: #333;
+text-transform: uppercase;
+margin-bottom: 15px;
+letter-spacing: 3px;
+border-radius: 10px;
+}
+/*end of h1 element*/
+
+/*start of h2 element*/
+h2{
+	color: yellow;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-bottom: 15px;
+	background-color: #333;
+	padding: 10px;
+	border-radius: 10px;
+}
+/*start of class attribute bio*/
+.bio{
+background-color: indianred;
+font-size: 18px;
+line-height: 1.75;
+/*opacity: 0.5;*/
+background-color: rgba(36, 45, 117,0.2);
+/*rgba(36, 45, 117, 1)*/
+}
+/*end of class attribute bio*/
+
+/*targets the html "id" attribute*/
+#me{
+	height: 180px;
+	width: 180px;
+	border-radius:50%;
+	border-width: 3px;
+	border-color: LightSkyBlue;
+	border-style: solid;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+/*targets class container*/
+.container{
+width: 500px;
+margin: 0 auto;
+text-align: center;
+background-image: url(../images/bg3.png);
+}
+/*end of class container*/
+
+
+
+/*end of body*/
